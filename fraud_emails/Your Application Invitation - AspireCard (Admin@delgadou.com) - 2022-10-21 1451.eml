@@ -1,0 +1,143 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Fri, 21 Oct 2022 19:51:55 +0000
+Received: from 135.148.148.177 (EHLO naetionfalization.com)
+ by 10.253.31.91 with SMTP;
+ Fri, 21 Oct 2022 19:51:55 +0000
+From: "AspireCard" <Admin@delgadou.com>
+To: <nicknguyen3@yahoo.com>
+Subject: Your Application Invitation
+Date: Fri, 21 Oct 2022 14:51:55 -0500
+Message-ID: <118736175348_72895982_126068@naetionfalization.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0657_01D8E8D1.4844FFC0"
+X-Mailer: Microsoft Outlook 16.0
+X-Originating-Ip: [135.148.148.177]
+X-Originating-Ip: 135.148.148.177
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=unknown;
+ spf=pass smtp.mailfrom=naetionfalization.com;
+ dmarc=unknown header.from=delgadou.com;
+X-Apparently-To: nicknguyen3@yahoo.com; Fri, 21 Oct 2022 19:51:56 +0000
+X-YMailAVSC: TkE.zsc3bBtc3uBYxunk0ziyDIwVhC0Wa407RijT6KKC784
+ 5nG93ffqr64zeECjd6AmtpQ.GNf3Qtdro4aiXT0s6ErSEvqy0X1EsJmd9Aj4
+ IXiXmGgABA2E4t.QPSq9P97DFI5MKQy8fQn5LUhj5dC5SjzAsI1i4PufS1FU
+ FFjQ2Y9l4Mg79GWpMTHGTVCJjYkg1EzQcl7Kh4WKsIrBaU_pIJ740uVcise2
+ 7cTEggDwNMS1Wchw9aoj4D.bq0M3PqlSfdgo3g3ToXJ0v0Xh7f.XeomFPtWu
+ 79mZHxrrW4H73BWLiS8S6z_mOP4tsMNuWX0uJeftPRjpK0jP3KNKJa7OgtES
+ 35NK07Nb.VyUiLjMxZwtiwrgwHqkYHsYCCoUNBon8jlUBcVhOqFwygj4e5nW
+ TyZeAaxAXiuRLYNmYbOphAFjlVx1Dr8jGOeXR_UhKI.f132DUvgXr.b.4Jlz
+ 3Vc.KJxkcp4Ze7xvNG5cC9lzLAmlWJOlRNYA5i0PebfeBrAqPZy8nxorvFlF
+ jdZo2XCLd4qu1ENX.h.0H0N0dpb3.tLi2X1v_7JgUm46xvwhNfkOd4yr8amz
+ fUTnLyrJ6bRvq5zXWkCKvGGS9nXp_mWjwQ7GJaPyTZUZmx2GOp8Rx1N8bisd
+ JD0Ukc1JOAK3u3KghlOlUNUIHBVQy6qbtDdNHCr4gea6.fZNEatpck7MHM.F
+ cRFR.JH0Dtn6IobAH.PMUPeKAVI4TZjJFPoXGczOTzX4_SE35hl1.XH02QE1
+ EI1JtxhWwiL5MNY4kK1Eze35cqIR4dHPtzcgJS6t71BVJqNMxnMolSspDzrA
+ cKxzhcR21oqmF2LnzSa2NwPvjgtke5_2SbhE3_Oza7sROkoXUDCcgB4uNiFZ
+ ksmKJ3jzBoPXpJ1k41xxKNCnx59JKYohtZnNmavcJY6H5Vnagx8mq9VvnYXv
+ oeUn5
+	H1m.onsSqcPFc2.pxlOxV4ajkg5DNN0kX0CSF1.vA3eJa_QCTopYXO2
+ RTqcB7ej6aUPsTqShmph2VE7BYk5tbbV.p3KNlGl6L0Bti0aat4LTwlK2FSY
+ hP2AmvjLXRHhWIr59_imcEOKyaJYSIUE5Z7luXSynMrB0dGnn0PEKpsERu8s
+ rPxbrsIydR42ZxyX5EC1ncfK6vQ3ODCEURpdvLzvgrTBC1hLUJVP0yHipRBB
+ MCIrODbfwVVANhGCwhK1gnoeFZyn2lDOZFRPMih547oYPuxJVxy_kobuP6eQ
+ Ihk0rcJeVrIUDKF_r9bIszn.iOeK6PLj_KL7b98Cn53boPF.DUul32_8BnPr
+ xJbVWD2TD6I4EmtFXTHJdAVgv0k__QuPaaqGdK7WcYsy3YkTglcRxsfENEX3
+ xfgfzELP44QjHbz_YOw_iwiNeqke2xtL8U6XeBUkArLd4Bnix49AeuPg5XRE
+ veR7zLrGnlrlOPgrE4we9dJNwoD55LOW8.Bx5TxvzPg9XuHh5pBckldOBefL
+ 0_JUpbkHmDE7KA9maLHgl.ZIaR3bplu1PVHwhg9Ym7ymsvBM0HueLLreolXf
+ DZxEwsslc9YcxUc23cvDBc07WKl_Jl3mE
+X-YMailISG: mcE0YkcWLDtKjNxPsnp9amGZ2_td0JzeO972btZCBOC3BdQ0
+ A0u5gis00DTHFQ4g97qYaKuprh.j0oFDvBfiY9bl8vMm5F_jd1TDGX_j5hAv
+ UTcbjIW9PSkUvvlLt2NBD5Y2ypVqpRboDgrL7t0KqpjbqZhySxk3woXh08rU
+ OagFPUiQAdHKAgAIfFAWCeQknZ5ypEN_JUPjumblCyy3mNMiFDy1icAdJ_k0
+ .bAnYUqpUVh.gLTtEw.4Z9KNknJ4ntFuDROWDItkfNZtUY3msobyu2AfLyYV
+ fPsn7vmuQLAoz8HfURYLAX_.cGL6DwfcCqQSB4IK..l8QJofn_b6KyhmKn.D
+ jMk9eKsrhiKbDelCzMIBLHgw_hXXXR_doPFh05Jl.rVG7MsDpX1XfZRCX7df
+ bEPWrHqBOqOnKebrlLnBolqF6nJpOBWcRL0JLXp8Wm2KEyd8Lt4YpECCorSQ
+ kWW79vLbP1amj0PEWDTUDLN_n5C5hbuTC5Ah0DjB1Weew25hNWYrMTax2K2J
+ jvVhYAsSip41uzZJObh9elYdy54.1Z_ns2Lx6AcgCWyYlcOT39ghIeGDNs0Z
+ rz1BPDLo0KMivplZBDdmAgWi_679cx4iHR75X61Sq2ylVHryJ_Y8M3Y.Gfyg
+ x.odzMuAxnrTXhi.63vEYbb6tGzcAi.8mvibg6v_3cfMEKhNZCfDfNfSklEC
+ B6b0AqrRckokITCHkiaY2_yJH5pa6QpNWlqrU2nfWq38a8zfR4JISNr5Q7In
+ UcTB6mKlSLs7C7l041T.lCdoWEZNqrrs5z_Zm3Auh7ER769.Cjm9ChELPsJH
+ 6lCBi0asLJWColtNoDSr550KzRv0Yf44hSVZTI7KhJEQnCXgslW9mjPxgwzz
+ KtfUL_.hc0Y1l94TqkbYwrlntEo_rry_gNj1MPlv0JCcZTgl7H9Tyri6L9R0
+ ONG0
+	P2jLJh7QtMfjj22V42gWo39cTI6mhksacsWFcrsTltgJmhUslwKu3jR2
+ To_baUsa4nnvdpxSkKNc3AlwcOuEdq3EFwja7dGka5spqt1iVsIvc5NR1aCb
+ KEIcvQI0waAR8UcgDSHLHNv0MQMPIbg29YMSME0z9lPIOz_qvluc01tSBDjQ
+ r9sB1nNJ4PI41gVAytVCiMP7Ercg1WbaBQSzlyFP_ZC0
+thread-index: AQFcjMbSdjgWD664GYxs+VqDnwhtSQ==
+X-OlkEid: 00000000C845D6B803DDF243A071803957DEFC26070034AD76187591974DBF6C4F76951C873A01000100000000003C926B4CE2E4194EBF40FC36E06EB276000000006994000066F101D44204DF47A273212A554FEE3E
+Content-Length: 2231
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0657_01D8E8D1.4844FFC0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ 
+<http://dechristianization.com/dqfsfsdfsdft.html?od=1syi6352ebf3846e3_vl_A
+ctive9vl_17c1.5dopn4.O0000rgg0w51lqt033_xf1560.gg0w5MDNxMzlnLTIzcDk1NWg0k3
+tHY> 
+
+Earning cash back rewards is easy with an Aspire Credit Card
+
+
+
+  <http://dechristianization.com/21/418363/32476/MVdIcTutA.jpg> 
+
+ 
+<http://dechristianization.com/dqfsfsdfsdft.html?od=8syi6352ebf3846e3_vl_A
+ctive9vl_17c1.5dopn4.O0000rgg0w51lqt033_xf1560.gg0w5MDNxMzlnLTIzcDk1NWg0l3
+9LZ> 
+
+
+------=_NextPart_000_0657_01D8E8D1.4844FFC0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<body>
+	<center>
+		<a style=3D"color:#000000" =
+href=3D"http://dechristianization.com/dqfsfsdfsdft.html?od=3D1syi6352ebf3=
+846e3_vl_Active9vl_17c1.5dopn4.O0000rgg0w51lqt033_xf1560.gg0w5MDNxMzlnLTI=
+zcDk1NWg0k3tHY" >
+			<h2>Earning cash back rewards is easy with an Aspire Credit Card</h2>
+		<br />
+		<br />
+		<img =
+src=3D"http://dechristianization.com/21/418363/32476/MVdIcTutA.jpg" =
+height=3D"1969" width=3D"660" useMap=3D"#SL3l" border=3D"0" >
+		<map name=3D"SL3l"><br />
+			<area shape=3D"rect" coords=3D"0, 0, 660, 1725" =
+href=3D"http://dechristianization.com/dqfsfsdfsdft.html?od=3D1syi6352ebf3=
+846e3_vl_Active9vl_17c1.5dopn4.O0000rgg0w51lqt033_xf1560.gg0w5MDNxMzlnLTI=
+zcDk1NWg0k3tHY" >
+			<area shape=3D"rect" coords=3D"0, 1725, 660, 1969" =
+href=3D"http://dechristianization.com/dqfsfsdfsdft.html?od=3D1syi6352ebf3=
+846e3_outvl_Active9.5dopn4.O0000rgg0w51lqt033_xf1560.gg0w5MDNxMzlnLTIzcDk=
+1NWg0f2czT" >
+		</map>
+		<br />
+		<img =
+src=3D"http://dechristianization.com/dqfsfsdfsdft.html?od=3D8syi6352ebf38=
+46e3_vl_Active9vl_17c1.5dopn4.O0000rgg0w51lqt033_xf1560.gg0w5MDNxMzlnLTIz=
+cDk1NWg0l39LZ" usemap=3D"#5BzW" border=3D"0" >
+		<map name=3D"5BzW">
+			<area shape=3D"rect" coords=3D"082,27,428,93" =
+href=3D"http://dechristianization.com/dqfsfsdfsdft.html?od=3D1syi6352ebf3=
+846e3t0t_outvl_Active9.5dopn4.O0000rgg0w51lqt033_xf1560.gg0w5MDNxMzlnLTIz=
+cDk1NWg0g2s3U" >
+		</map>
+		<br />
+	</center>
+</body>
+</html>
+
+------=_NextPart_000_0657_01D8E8D1.4844FFC0--
