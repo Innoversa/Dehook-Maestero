@@ -41,4 +41,4 @@ if len(new_dfs) > 0:
 data.to_csv(csv_path, index=False)
 print(f"Length of the personal_fraud_email.csv file: {len(data)}")
 print(f"Number of recorded personal emails: {len(filename)}")
-print("=" * 10 + "Completed" + "=" * 10)
+print("=" * 35 + "Completed" + "=" * 35)
