@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 import email
 
+# Read file contents given file_path
 def read_file(file_path):
     if file_path.endswith(".eml"):
         with open(file_path, 'r') as file:
