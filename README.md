@@ -4,7 +4,10 @@ Sp23 CSCE 689 Accessible Computing Team Project
 
 ## Team Members
 
-{fill this}
+- Nicholas Nguyen
+- Sicong Huang
+- Lide Su
+- Landon Voss 
 
 ## Project Description
 
