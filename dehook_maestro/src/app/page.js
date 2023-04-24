@@ -1,21 +1,23 @@
-"use client"
-import Image from 'next/image'
-import { Inter, Atkinson_Hyperlegible } from 'next/font/google'
-import './globals_dark.css'
-import React, { useState } from "react"
-import ReactDOM from "react-dom/client"
+"use client";
+import Image from "next/image";
+import { Inter, Atkinson_Hyperlegible } from "next/font/google";
+import "./globals_dark.css";
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
 
-const Atkinson = Atkinson_Hyperlegible({subsets:['latin'], weight:"400"})
+import FraudDetector from "./components/FraudDetector";
+
+const Atkinson = Atkinson_Hyperlegible({ subsets: ["latin"], weight: "400" });
 
 function handleClick() {
-  console.log(document.getElementsByClassName("text_input1"))
+  console.log(document.getElementsByClassName("text_input1"));
 }
 
 class EssayForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: "New Entry Here"
+      value: "New Entry Here",
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -23,7 +25,7 @@ class EssayForm extends React.Component {
   }
 
   handleChange(event) {
-    this.setState({value: event.target.value});
+    this.setState({ value: event.target.value });
   }
 
   handleSubmit(event) {
@@ -35,15 +37,24 @@ class EssayForm extends React.Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit} id='form1'>
-          <textarea rows="10" cols="40" value={this.state.value} onChange={this.handleChange} />
+        <form onSubmit={this.handleSubmit} id="form1">
+          <textarea
+            rows="10"
+            cols="40"
+            value={this.state.value}
+            onChange={this.handleChange}
+          />
         </form>
-        <input className="submit_button" type="submit" value="Submit" form="form1"/>
+        <input
+          className="submit_button"
+          type="submit"
+          value="Submit"
+          form="form1"
+        />
       </div>
     );
   }
 }
-
 
 export default function Home() {
   // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -61,41 +72,38 @@ export default function Home() {
     body.append("file", file);
     const response = await fetch("/api/file", {
       method: "POST",
-      body
+      body,
     });
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
       <div className="main_logo">
         <Image
           className="relative dark:invert"
           src="/fish_n_hook.webp"
           alt="dehook maestro Logo"
-          width={300}
+          width={400}
           height={10}
           priority
         />
         <div className="main_tital">
-          <h1 className={`${Atkinson.className}`}>
-            Dehook Maestro
-          </h1>
+          <h1>Dehook Maestro</h1>
         </div>
       </div>
 
       <div className="rowC">
         <div>
-          <h2 className={`${Atkinson.className} mb-1 font-semibold`}>
-            Submit your file 
-          </h2>
+          <h2>Submit your file</h2>
           <input type="file" name="myImage" onChange={uploadToClient} />
-          <div>          
-            <button className="submit_button_1"
-            type="submit"
-            onClick={uploadToServer}
+          <div>
+            <button
+              className="submit_button_1"
+              type="submit"
+              onClick={uploadToServer}
             >
-            Submit
-            </button></div>
+              Submit
+            </button>
+          </div>
         </div>
 
         <div>
@@ -105,6 +113,11 @@ export default function Home() {
           <EssayForm />
         </div>
       </div>
+      <div>
+        <div>
+          <FraudDetector inputString={"sdss"} />
+        </div>
+      </div>
     </main>
-  )
+  );
 }
