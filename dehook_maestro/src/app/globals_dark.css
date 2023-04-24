@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.main_tital {
+  text-align: center;
+  font-family: 'Atkinson Hyperlegible';
+  font-size: 40px;
+}
+
+textarea {
+  font-family: 'Atkinson Hyperlegible';
+  padding: 10px;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  letter-spacing: 1px;
+  max-width: 100%;
+}
+
+.rowC{display:flex; flex-direction:row;}
+
+h2 {
+  text-align: left;
+  font-size: 15px;
+}
+
+.submit_button {
+  float:right;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  padding: 5px;
+}
+
+.submit_button:hover {
+  background-color:white;
+  color: black;
+  transition: 0.6s;
+}
+
+.submit_button_1 {
+  float:left;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  padding: 5px;
+}
+
+.submit_button_1:hover {
+  background-color:white;
+  color: black;
+  transition: 0.6s;
+}
