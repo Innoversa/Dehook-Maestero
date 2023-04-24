@@ -128,3 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 *.pt
+
+not_fraud_emails/
+fraud_emails/
