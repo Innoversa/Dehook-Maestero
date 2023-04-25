@@ -70,6 +70,7 @@ h2 {
 } */
 
 .submit_button {
+  background-color: #500000;
   float:right;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;
@@ -83,6 +84,7 @@ h2 {
 }
 
 .submit_button_1 {
+  background-color: #500000;
   float:left;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;

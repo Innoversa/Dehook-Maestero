@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:100,300,400,700");
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --font-atkinson: "Atkinson Hyperlegible", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: var(--font-atkinson);
+  color: rgb(var(--foreground-rgb));
+  font-size: 29px;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
 .score {
     font-size: 1.5em;
     font-weight: bold;
@@ -8,4 +36,24 @@
     line-height: 1.5em;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+}
+
+button.read-out-loud {
+  background-color: #500000;
+  float:center;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  padding: 5px;
+}
+
+button.read-out-loud:hover {
+  background-color:maroon;
+  color: black;
+  transition: 0.6s;
+}
+
+button.read-out-loud:active {
+  background-color: #3C0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
