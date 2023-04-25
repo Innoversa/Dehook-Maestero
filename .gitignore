@@ -131,3 +131,4 @@ dmypy.json
 
 not_fraud_emails/
 fraud_emails/
+wandb/
