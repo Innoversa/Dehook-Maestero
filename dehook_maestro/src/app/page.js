@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 
 import FraudDetector from "./components/FraudDetector";
+import ReadOutLoudButton from "./components/ReadOutLoudButton";
 
 const Atkinson = Atkinson_Hyperlegible({ subsets: ["latin"], weight: "400" });
 
@@ -116,6 +117,7 @@ export default function Home() {
       <div>
         <div>
           <FraudDetector inputString={"sdss"} />
+          <ReadOutLoudButton text={"This is a read out loud demo"} />
         </div>
       </div>
     </main>
